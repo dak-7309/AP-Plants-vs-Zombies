@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0"
+            prefWidth="1440.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.MainMenuController">
+   <ImageView fitHeight="900.0" fitWidth="1440.0" nodeOrientation="INHERIT" pickOnBounds="true">
+      <Image url="@Resources/Main_BG.jpg"/>
+   </ImageView>
+   <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="1100.0" layoutY="450.0" onMouseClicked="#NewGame"
+              onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/NewGame.png"/>
+   </ImageView>
+   <ImageView fitHeight="100.0" fitWidth="350.0" layoutX="25.0" layoutY="50.0" onMouseClicked="#LeaderBoard"
+              onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/LeaderBoard.png"/>
+   </ImageView>
+   <ImageView fitHeight="100.0" fitWidth="250.0" layoutX="25.0" layoutY="750.0" onMouseClicked="#Help"
+              onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/Help.png"/>
+   </ImageView>
+   <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="1100.0" layoutY="750.0" onMouseClicked="#Exit"
+              onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/Exit.png"/>
+   </ImageView>
+   <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="1100.0" layoutY="600.0" onMouseClicked="#LoadGame"
+              onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/LoadGame.png"/>
+   </ImageView>
+   <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="1100.0" layoutY="50.0" onMouseClicked="#LevelMenu"
+              onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/ChooseLevel.png"/>
+   </ImageView>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PauseMenuController">
+   <ImageView fitHeight="900.0" fitWidth="1440.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/PauseMenu.png"/>
+   </ImageView>
+   <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="670.0" layoutY="700.0" onMouseClicked="#Back"
+              onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/BackButton.png"/>
+   </ImageView>
+   <ImageView fitHeight="75.0" fitWidth="250.0" layoutX="595.0" layoutY="200.0" onMouseClicked="#SaveGame"
+              onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/SaveGame.png"/>
+   </ImageView>
+   <ImageView fitHeight="75.0" fitWidth="250.0" layoutX="595.0" layoutY="300.0" onMouseClicked="#RestartGame"
+              onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/Restart.png"/>
+   </ImageView>
+   <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="670.0" layoutY="500.0" onMouseClicked="#MusicSet"
+              onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/Music.png"/>
+   </ImageView>
+   <ImageView fitHeight="75.0" fitWidth="250.0" layoutX="595.0" layoutY="400.0" onMouseClicked="#Exit"
+              onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/ExitGame.png"/>
+   </ImageView>
+</AnchorPane>

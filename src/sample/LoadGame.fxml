@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0"
+            prefWidth="1440.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.LoadGameController">
+   <ImageView fitHeight="900.0" fitWidth="1440.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/Gamelist.png"/>
+   </ImageView>
+   <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="670.0" layoutY="600.0" onMouseClicked="#Back"
+              onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/BackButton.png"/>
+   </ImageView>
+   <ImageView fitHeight="80.0" fitWidth="300.0" layoutX="570.0" layoutY="200.0" onMouseClicked="#Start"
+              onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/LoadGameName.png"/>
+   </ImageView>
+   <ImageView fitHeight="80.0" fitWidth="300.0" layoutX="570.0" layoutY="330.0" onMouseClicked="#Start"
+              onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Resources/LoadGameName.png"/>
+   </ImageView>
+   <Label layoutX="595.0" layoutY="215.0" prefHeight="50.0" prefWidth="250.0" text=" Anuneet Anand"
+          textAlignment="CENTER" onMouseClicked="#Start">
+      <font>
+         <Font name="Comic Sans MS Bold" size="30.0"/>
+      </font>
+   </Label>
+   <Label layoutX="595.0" layoutY="345.0" prefHeight="50.0" prefWidth="250.0" text="  Naman Tyagi"
+          textAlignment="CENTER" onMouseClicked="#Start">
+      <font>
+         <Font name="Comic Sans MS Bold" size="30.0"/>
+      </font>
+   </Label>
+</AnchorPane>
